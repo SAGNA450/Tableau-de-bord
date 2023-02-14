@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="contenaire">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h1 class="">Clinic<span class="danger">Pastef</span></h1>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">home</span>
+                    <h3>Home</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">wc</span>
+                    <h3>Patients</h3>
+                </a>
+                <a href="./listdoc.html">
+                    <span class="material-icons-sharp">psychology_alt</span>
+                    <h3>Medecins</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">local_pharmacy</span>
+                    <h3>Contact us</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">contact_mail</span>
+                    <h3>Messageries</h3>
+                    <span class="message-count">10</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">medication</span>
+                    <h3>Blog</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">info</span>
+                    <h3>About</h3>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Shop</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Appointement Form</h3>
+                </a>
+                <a href="connect.html">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Déconnexion</h3>
+                </a>
+            </div>
+        </aside>
+        <!--------------------- END OF ASIDE ------------------>
+        <main>
+            <h1>Statistique</h1>
+            <div class="dat">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">wc</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Nombre Cas Grave</h3>
+                            <h1>35125</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Dans ces derniers mois</small>
+                </div>
+
+                <!---------------- END OF SALES ------------------>
+
+                <div class="expense">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Patients Guéris</h3>
+                            <h1>26 234</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Dans ces derniers jurs</small>
+                </div>
+
+                <!---------------- END OF EXPENSE ------------------>
+
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Patients sous Traitement</h3>
+                            <h1>12 000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>30%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">24 heures Dernières</small>
+                </div>
+                <!---------------- END OF INCOME ------------------>
+            </div>
+            <!---------------- END OF INSIGHTS ------------------>
+            <div class="recent-order">
+                <h2>Liste</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Adresse</th>
+                            <th>Telephone</th>
+                            <th>Email</th>
+                            <th>Profil</th>  
+                        </tr>  
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Harouna BA</td>
+                            <td>Parcelles</td>
+                            <td>771050232</td>
+                            <td class="warning">Baharouna02@gmail.com</td>
+                            <td class="primary">Developpeur</td>
+                        </tr>
+                        <tr>
+                            <td>Coumba NDIAYE</td>
+                            <td>Paris</td>
+                            <td>773332345</td>
+                            <td class="warning">Coumba32@hotmail.com</td>
+                            <td class="primary">Comptable</td>
+                        </tr>
+                        <tr>
+                            <td>Lassana SIBY</td>
+                            <td>Guédiéwaye</td>
+                            <td>782445622</td>
+                            <td class="warning">Lassana@sb.fr</td>
+                            <td class="primary">Chef-Projet</td>
+                        </tr>
+                        <tr>
+                            <td>Ibrahima SOKHNA</td>
+                            <td>Cite-Keur-Gorgui</td>
+                            <td>773425252</td>
+                            <td class="warning">Ibrahima@gmail.com</td>
+                            <td class="primary">Programmeur</td>
+                        </tr>
+                        <tr>
+                            <td>Harouna BA</td>
+                            <td>Parcelles</td>
+                            <td>771050232</td>
+                            <td class="warning">Baharouna02@gmail.com</td>
+                            <td class="primary">Développeur</td>
+                        </tr>
+                        <tr>
+                            <td>Coumba NDIAYE</td>
+                            <td>Paris</td>
+                            <td>773332345</td>
+                            <td class="warning">Coumba32@hotmail.com</td>
+                            <td class="primary">Comptable</td>
+                        </tr>
+                        <tr>
+                            <td>Lassana SIBY</td>
+                            <td>Guédiéwaye</td>
+                            <td>782445622</td>
+                            <td class="warning">Lassanasiby@sb.fr</td>
+                            <td class="primary">Chef-Projet</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!---------------- END OF MAIN ---------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggle">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Call us <b> 24/7</b></p>
+                        <small class="text-muted">Contact</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./img/sa.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!---------------- END OF TOP ---------------->
+            <div class="recent-updates">
+                <h2>Mis à jour sms</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./img/sa.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Harouna Ba</b> a reçu son message de rendez-vous pour la réunion</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./img/sa.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Lassana Siby</b> a reçu son message de rendez-vous pour la réunion</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>    
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./img/sa.jpeg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Maguette Fall</b> a reçu son message de rendez-vous pour la réunion</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+             <!---------------- END OF RECENT-UPDATES ---------------->
+            <div class="sales-analytic">
+                <h2>Patients/TA</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Enfants</h3>
+                            <small class="text-muted">Le nombre d'enfants malades</small>
+                        </div>
+                        <h5 class="success">39%</h5>
+                        <h3>34445</h3>
+                    </div>
+                </div>  
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Adultes</h3>
+                            <small class="text-muted">Le nombre d'adultes malades</small>
+                        </div>
+                        <h5 class="success">21%</h5>
+                        <h3>344</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Vieillards</h3>
+                            <small class="text-muted">Le nombre de Vieillards malades</small>
+                        </div>
+                        <h5 class="success">40%</h5>
+                        <h3>50044</h3>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/list.js"></script>
+</body>
+</html>
