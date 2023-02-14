@@ -1,0 +1,219 @@
+:root {
+  --color-primary: #7380ec;
+  --color-danger: #ef767e;
+  --color-success: #41f1b6;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #000205d5;
+  --color-info-light: #dce1eb;
+  --color-dark: #05ecf8;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #3577c3f0;
+  --color-background: #f5f5f8;
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+* {
+  color: red;
+  font-size: 1em;
+  box-sizing: border-box;
+  font-family: "Metrophobic", Arial, serif;
+}
+.danger {
+  color: var(--color-danger);
+}
+body {
+  background-image: url(./img/l-afrique-de-l-homme-american-medical-doctor-with-tablet-computer-on-white-d8f077.jpeg);
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.top {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.logo {
+  display: flex;
+  gap: 0.8rem;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+header,
+section,
+footer {
+  text-align: center;
+  background-color: var(--color-light);
+  border-radius: 5px;
+  padding: 0px;
+  opacity: 0.7;
+}
+
+header,
+footer {
+  width: 100%;
+  padding: 12px;
+  border-top: solid 6px var(--color-background);
+}
+
+header {
+  margin-bottom: 10px;
+  text-align: right;
+  box-sizing: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  float: left;
+  width: 100%;
+  margin: 10px 10px 50px 0px;
+}
+
+footer {
+  clear: both;
+}
+
+header#menu a {
+  border: 1px solid transparent;
+  background-color: var(--color-info-dark);
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  margin: 2px;
+  border-radius: 4px;
+  text-decoration: none;
+  outline: none;
+}
+
+header#menu a:hover {
+  border: solid 1px white;
+  background-color: var(--color-danger);
+  outline: none;
+}
+
+.currentPage {
+  border: solid 1px white !important;
+  background-color: var(--color-danger) !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a i.fa-list-alt,
+.fa-user-md,
+.fa-hospital-o,
+.fa-id-card-o,
+.fa-medkit,
+.fa-stethoscope {
+  font-size: 22px !important;
+  vertical-align: bottom;
+}
+#panel {
+  color: rgb(7, 6, 6);
+  padding: 5px;
+  font-weight: bold;
+  background-color: var(--color-danger);
+  width: 10%;
+  min-width: 60px;
+  text-align: center;
+  border-radius: 3px;
+  position: relative;
+  top: -30px;
+  left: calc(50% - 70px);
+  border: solid 1px burlywood;
+}
+
+div.zoneaffichage {
+  width: auto;
+  height: auto;
+  overflow: scroll;
+  height: 290px;
+}
+
+table tr {
+  width: 100%;
+  border: solid 2px orange;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+tbody tr td {
+  color: var(--color-info-dark);
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  color: orange;
+  font-weight: bold;
+  background-color: var(--color-danger) !important;
+}
+
+#close {
+  display: block;
+  text-align: center;
+  position: relative;
+  left: 97%;
+  color: red;
+  top: 5px;
+  z-index: 1;
+  cursor: pointer;
+  width: 2%;
+  font-size: 20px;
+}
+
+select option label input {
+  color: black;
+}
+
+input#closeEtab {
+  color: black;
+}
+
+label#patientcode,
+#etablissementLabel,
+#specialiteLabel {
+  float: inherit;
+  display: block;
+}
+label#specialiteLabel {
+  margin-top: 20px;
+}
+#specialiteSelect {
+  margin-bottom: 20px;
+}
+#etab {
+  background-color: ivory;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  border: solid 1px brown;
+}
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+}
