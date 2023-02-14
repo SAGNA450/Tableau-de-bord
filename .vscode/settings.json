@@ -1,0 +1,13 @@
+{
+    "gitlens.codeLens.enabled": true,
+    "gitlens.advanced.caching.enabled": true,
+    "gitlens.terminal.overrideGitEditor": false,
+    "git.autorefresh": false,
+    "git.confirmEmptyCommits": false,
+    "git.confirmForcePush": false,
+    "git.confirmSync": false,
+    "git.enableStatusBarSync": false,
+    "git.openDiffOnClick": false,
+    "git.terminalAuthentication": false,
+    "gitlens.virtualRepositories.enabled": false
+}
